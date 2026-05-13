@@ -59,5 +59,5 @@ Com o ciclo completo de 100 KB em mãos, basta aplicar o XOR modular sobre todo 
 Após gerar o `database_recuperado.db`, podemos rodar um simples comando `strings` para localizar a flag escondida no meio do banco de dados:
 
 ```bash
-strings database_recuperado.db | grep CTF
+strings database_recuperado.db
 ``` 
